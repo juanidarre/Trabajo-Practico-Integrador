@@ -18,5 +18,5 @@ Implementación de un chatbot que:
 
 ## 4. Stack Tecnológico (Preliminar)
 *   **Lenguaje:** Python (Framework Django).
-*   **Plataforma del Bot:** Telegram API (o Web).
+*   **Plataforma del Bot:** WhatsApp Business API (o Web).
 *   **Base de Datos:** SQLite / PostgreSQL.
