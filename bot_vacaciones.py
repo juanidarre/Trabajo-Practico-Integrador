@@ -1,4 +1,23 @@
 import json
+import os
+
+# Esta línea detecta automáticamente dónde está parado tu archivo .py
+directorio_actual = os.path.dirname(__file__)
+ruta_db = os.path.join(directorio_actual, "data", "base_datos.json")
+
+def cargar_datos():
+    # Verificación de robustez: informamos si el archivo no existe antes de que falle
+    if not os.path.exists(ruta_db):
+        raise FileNotFoundError(f"No se encontró la base de datos en: {ruta_db}")
+        
+    with open(ruta_db, 'r', encoding='utf-8') as archivo:
+        return json.load(archivo)
+
+# Cargar datos
+db_json = cargar_datos()
+db = db_json["empleados"]
+
+import json
 
 # Simulación de la Base de Datos
 db = {
