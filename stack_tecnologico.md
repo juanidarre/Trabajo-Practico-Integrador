@@ -8,8 +8,8 @@ Se elige **Python** debido a su sintaxis clara y su amplio ecosistema de librer�
 ## 2. Framework: Django
 Se utilizará el framework **Django** para gestionar la lógica de negocio y la interacción con la base de datos. Django provee un panel de administración robusto que facilita la simulación de las tareas del "Jefe" o "RRHH" para aprobar solicitudes.
 
-## 3. Plataforma del Bot: Telegram API
-Se ha seleccionado **Telegram** como interfaz de usuario por las siguientes razones:
+## 3. Plataforma del Bot: WhatsApp Business API
+Se ha seleccionado **WhatsApp** como interfaz de usuario por las siguientes razones:
 - API gratuita y bien documentada.
 - Soporte para botones personalizados (Inline Keyboards) que facilitan la toma de decisiones del jefe.
 - Facilidad de acceso para el empleado desde cualquier dispositivo móvil o web.
