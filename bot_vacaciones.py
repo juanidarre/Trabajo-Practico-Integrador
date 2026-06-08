@@ -1,7 +1,6 @@
 import json
 import os
 
-# Esta línea detecta automáticamente dónde está parado tu archivo .py
 directorio_actual = os.path.dirname(__file__)
 ruta_db = os.path.join(directorio_actual, "data", "base_datos.json")
 
