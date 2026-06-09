@@ -34,7 +34,7 @@ class VacacionesBot:
                 legajo = mensaje
                 if legajo in db:
                     self.datos_solicitud["legajo"] = legajo
-                    saldo = db[legajo]["dias"]
+                    saldo = db[legajo]["Días_Disponibles"]
                     print(f"Bot: Hola {db[legajo]['nombre']}. Tienes {saldo} días disponibles.")
                     
                     if saldo > 0:
