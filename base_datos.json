@@ -1,7 +1,7 @@
 {
   "empleados": {
-    "101": {"nombre": "Juan Perez", "dias_disponibles": 15, "id_jefe": 500},
-    "102": {"nombre": "Ana Lopez", "dias_disponibles": 0, "id_jefe": 500}
+    "101": {"nombre": "Juan Perez", "Días_Disponibles": 15, "id_jefe": 500},
+    "102": {"nombre": "Ana Lopez", "Días_Disponibles": 0, "id_jefe": 500}
   },
   "solicitudes": []
 }
